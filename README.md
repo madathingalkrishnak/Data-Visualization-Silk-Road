@@ -12,6 +12,23 @@ This repository contains a data visualization project focused on the Silk Road t
 - Pandas
 - Streamlit
 
+## How to Run the Visualization Dashboard
+
+To run the Streamlit dashboard locally:
+
+1. Download the following files into the **same folder**:
+   - `data.csv.zip` (contains the cleaned dataset)  
+   - `streamlit (1).ipynb` (Jupyter notebook version of the dashboard)  
+   - `streamlit_appp.py` (Python version of the Streamlit app)  
+
+2. **Unzip** `data.csv.zip` to extract the `data.csv` file into the same folder.
+
+3. Open the Jupyter notebook `streamlit (1).ipynb` and run all cells. The dashboard will render interactively inside Jupyter.  
+
+   **Alternatively**, you can run the standalone Streamlit app by executing the following command in your terminal:
+   ```bash
+   streamlit run streamlit_appp.py
+   
 ### License
 No license information provided.
 
